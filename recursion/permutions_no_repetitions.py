@@ -1,4 +1,4 @@
-ip_ = "they"
+ip_ = "thet"
 
 
 def perm_with_no_repetitions(ipstr: str) -> list:
@@ -18,3 +18,4 @@ def helper(ip: str, partial_op: str, op_: list):
 
 if __name__ == '__main__':
     print(perm_with_no_repetitions(ip_))
+    print(set(perm_with_no_repetitions(ip_)))

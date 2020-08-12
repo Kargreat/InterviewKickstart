@@ -6,7 +6,7 @@ def quick(arr, start, end):
         return arr
 
     # call this the pivot element
-    mid = len(arr) // 2
+    mid = (start + end) // 2
 
     # swapping start element and pivot element
     temp = arr[0]
@@ -26,17 +26,18 @@ def quick(arr, start, end):
     temp = arr[0]
     arr[0] = arr[smaller]
     arr[smaller] = temp
-    print(arr)
+
     quick(arr, 0, smaller - 1)
     quick(arr, smaller + 1, end)
+    return arr
 
 
 def quick_sort(arr):
-    if len(arr):
+    if len(arr) == 1:
         return arr
     else:
-        quick(arr=arr, start=0, end=len(arr))
+        return quick(arr=arr, start=0, end=len(arr))
 
 
 if __name__ == '__main__':
-    print(quick_sort(arr=[3, 1, 4]))
+    print(quick_sort(arr=[3, 1, 4, 6, 2, 5, 5]))

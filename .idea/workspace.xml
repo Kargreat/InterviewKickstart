@@ -20,13 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="927e5109-3fb1-4492-bfc5-a2e6c4061624" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/decimal_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/generate _subset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion/valid_parenthesis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting/heapsort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recursion/permutions_no_repetitions.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/permutions_no_repetitions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/quicksort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/quicksort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-sorting/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-sorting/maxSubArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-sorting/max_profilt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-sorting/reorder_log_Files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-sorting/two_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/heapsort_pr2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/merge_sort_p2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorting/quicksort_pr2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timed_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timed_tests/target_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion/valid_parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/valid_parenthesis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorting/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/merge_sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Stub" />
         <option value="Python Script" />
       </list>
     </option>
@@ -55,54 +62,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.valid_parenthesis">
-    <configuration name="decimal_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewKickstart" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/decimal_numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="generate _subset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewKickstart" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/generate _subset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="heapsort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.max_profilt">
+    <configuration name="heapsort_pr2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewKickstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/heapsort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorting/heapsort_pr2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="permutions_no_repetitions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="maxSubArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewKickstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode-sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/permutions_no_repetitions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode-sorting/maxSubArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="valid_parenthesis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="max_profilt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewKickstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +116,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode-sorting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recursion/valid_parenthesis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode-sorting/max_profilt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reorder_log_Files" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewKickstart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode-sorting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode-sorting/reorder_log_Files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="two_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewKickstart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode-sorting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode-sorting/two_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.valid_parenthesis" />
-        <item itemvalue="Python.permutions_no_repetitions" />
-        <item itemvalue="Python.generate _subset" />
-        <item itemvalue="Python.decimal_numbers" />
-        <item itemvalue="Python.heapsort" />
+        <item itemvalue="Python.max_profilt" />
+        <item itemvalue="Python.maxSubArray" />
+        <item itemvalue="Python.reorder_log_Files" />
+        <item itemvalue="Python.two_sum" />
+        <item itemvalue="Python.heapsort_pr2" />
       </list>
     </recent_temporary>
   </component>
@@ -198,32 +204,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2221" y="603" key="#Notifications" timestamp="1597371689183">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="2221" y="603" key="#Notifications/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597371689183" />
     <state x="2273" y="463" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596408401210">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="2273" y="463" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1596408401210" />
-    <state width="1689" height="410" key="GridCell.Tab.0.bottom" timestamp="1597204956735">
+    <state width="1689" height="289" key="GridCell.Tab.0.bottom" timestamp="1597979459139">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="410" key="GridCell.Tab.0.bottom/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1597204956735" />
-    <state width="1439" height="396" key="GridCell.Tab.0.bottom/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597018795076" />
-    <state width="1689" height="410" key="GridCell.Tab.0.center" timestamp="1597204956734">
+    <state width="1689" height="289" key="GridCell.Tab.0.bottom/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1597979459139" />
+    <state width="1439" height="289" key="GridCell.Tab.0.bottom/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
+    <state width="1689" height="289" key="GridCell.Tab.0.center" timestamp="1597979459138">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="410" key="GridCell.Tab.0.center/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1597204956734" />
-    <state width="1439" height="396" key="GridCell.Tab.0.center/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597018795075" />
-    <state width="1689" height="410" key="GridCell.Tab.0.left" timestamp="1597204956733">
+    <state width="1689" height="289" key="GridCell.Tab.0.center/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1597979459138" />
+    <state width="1439" height="289" key="GridCell.Tab.0.center/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
+    <state width="1689" height="289" key="GridCell.Tab.0.left" timestamp="1597979459137">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="410" key="GridCell.Tab.0.left/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1597204956733" />
-    <state width="1439" height="396" key="GridCell.Tab.0.left/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597018795074" />
-    <state width="1689" height="410" key="GridCell.Tab.0.right" timestamp="1597204956734">
+    <state width="1689" height="289" key="GridCell.Tab.0.left/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1597979459137" />
+    <state width="1439" height="289" key="GridCell.Tab.0.left/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
+    <state width="1689" height="289" key="GridCell.Tab.0.right" timestamp="1597979459139">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="410" key="GridCell.Tab.0.right/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1597204956734" />
-    <state width="1439" height="396" key="GridCell.Tab.0.right/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597018795075" />
+    <state width="1689" height="289" key="GridCell.Tab.0.right/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1597979459139" />
+    <state width="1439" height="289" key="GridCell.Tab.0.right/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state x="2029" y="312" key="SettingsEditor" timestamp="1596930229140">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>

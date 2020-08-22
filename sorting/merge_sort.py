@@ -71,5 +71,4 @@ if __name__ == '__main__':
     test = [1, 2, 4, 5, 6]
     # print(ip_)
     # print('values:%s', mergesort(ip_))
-    for i in range(0, 10):
-        print(i)
+

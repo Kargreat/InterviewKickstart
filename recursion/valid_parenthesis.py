@@ -10,12 +10,12 @@ def generate_valid_parenthesis(n, open_p, close_p, partial_op, op_):
 
     if open_p > 0:
 
-        partial_op = partial_op + "{"
+        partial_op = partial_op + "("
         open_p -= 1
         generate_valid_parenthesis(n, open_p, close_p, partial_op, op_)
 
     if close_p > 0:
-        partial_op = partial_op + "}"
+        partial_op = partial_op + ")"
         close_p -= 1
         generate_valid_parenthesis(n, open_p, close_p, partial_op, op_)
 

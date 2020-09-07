@@ -20,18 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="927e5109-3fb1-4492-bfc5-a2e6c4061624" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graphs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/bfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphs/dfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ik_practice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc-dynamic_programming/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc-dynamic_programming/maxSubArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc-dynamic_programming/max_product_from_cut_pieces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc-dynamic_programming/numDecodings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc-graphs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lc-graphs/find_judge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-sorting/productExceptSelf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-sorting/valid_parenthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc-dynamic_programming/coinChange.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -71,8 +60,8 @@
       <recent name="$PROJECT_DIR$/graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.numDecodings">
-    <configuration name="bfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.coinChange">
+    <configuration name="coinChange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewKickstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,11 +69,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lc-dynamic_programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graphs/bfs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lc-dynamic_programming/coinChange.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.coinChange" />
         <item itemvalue="Python.numDecodings" />
         <item itemvalue="Python.max_product_from_cut_pieces" />
         <item itemvalue="Python.wordBreak" />
         <item itemvalue="Python.dfs" />
-        <item itemvalue="Python.bfs" />
       </list>
     </recent_temporary>
   </component>
@@ -221,31 +210,31 @@
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="2273" y="463" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1596408401210" />
-    <state width="1689" height="289" key="GridCell.Tab.0.bottom" timestamp="1599499640407">
+    <state width="1689" height="289" key="GridCell.Tab.0.bottom" timestamp="1599507479599">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="289" key="GridCell.Tab.0.bottom/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1599499640407" />
+    <state width="1689" height="289" key="GridCell.Tab.0.bottom/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1599507479599" />
     <state width="3419" height="289" key="GridCell.Tab.0.bottom/0.0.3440.1440/-1792.23.1792.1097@0.0.3440.1440" timestamp="1599191115764" />
     <state width="1439" height="289" key="GridCell.Tab.0.bottom/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state width="1689" height="289" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1598428872766" />
-    <state width="1689" height="289" key="GridCell.Tab.0.center" timestamp="1599499640405">
+    <state width="1689" height="289" key="GridCell.Tab.0.center" timestamp="1599507479598">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="289" key="GridCell.Tab.0.center/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1599499640405" />
+    <state width="1689" height="289" key="GridCell.Tab.0.center/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1599507479598" />
     <state width="3419" height="289" key="GridCell.Tab.0.center/0.0.3440.1440/-1792.23.1792.1097@0.0.3440.1440" timestamp="1599191115763" />
     <state width="1439" height="289" key="GridCell.Tab.0.center/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state width="1689" height="289" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1598428872765" />
-    <state width="1689" height="289" key="GridCell.Tab.0.left" timestamp="1599499640404">
+    <state width="1689" height="289" key="GridCell.Tab.0.left" timestamp="1599507479597">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="289" key="GridCell.Tab.0.left/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1599499640404" />
+    <state width="1689" height="289" key="GridCell.Tab.0.left/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1599507479597" />
     <state width="3419" height="289" key="GridCell.Tab.0.left/0.0.3440.1440/-1792.23.1792.1097@0.0.3440.1440" timestamp="1599191115762" />
     <state width="1439" height="289" key="GridCell.Tab.0.left/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state width="1689" height="289" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1598428872764" />
-    <state width="1689" height="289" key="GridCell.Tab.0.right" timestamp="1599499640406">
+    <state width="1689" height="289" key="GridCell.Tab.0.right" timestamp="1599507479599">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="289" key="GridCell.Tab.0.right/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1599499640406" />
+    <state width="1689" height="289" key="GridCell.Tab.0.right/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1599507479599" />
     <state width="3419" height="289" key="GridCell.Tab.0.right/0.0.3440.1440/-1792.23.1792.1097@0.0.3440.1440" timestamp="1599191115763" />
     <state width="1439" height="289" key="GridCell.Tab.0.right/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state width="1689" height="289" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1598428872765" />

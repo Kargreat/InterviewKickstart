@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="927e5109-3fb1-4492-bfc5-a2e6c4061624" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lc-dynamic_programming/rob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lc-dynamic_programming/numSquares.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +52,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/graphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rob">
+  <component name="RunManager" selected="Python.numSquares">
     <configuration name="coinChange" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewKickstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,6 +123,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="numSquares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="InterviewKickstart" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lc-dynamic_programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lc-dynamic_programming/numSquares.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rob" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="InterviewKickstart" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,34 +165,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wordBreak" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="InterviewKickstart" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lc-dynamic_programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lc-dynamic_programming/wordBreak.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.numSquares" />
         <item itemvalue="Python.rob" />
         <item itemvalue="Python.coinChange" />
         <item itemvalue="Python.numDecodings" />
         <item itemvalue="Python.max_product_from_cut_pieces" />
-        <item itemvalue="Python.wordBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -209,38 +209,38 @@
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="2273" y="463" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1596408401210" />
-    <state width="1689" height="289" key="GridCell.Tab.0.bottom" timestamp="1600222818175">
+    <state width="1689" height="289" key="GridCell.Tab.0.bottom" timestamp="1600228475462">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="289" key="GridCell.Tab.0.bottom/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600222818175" />
+    <state width="1689" height="289" key="GridCell.Tab.0.bottom/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600228475462" />
     <state width="3419" height="289" key="GridCell.Tab.0.bottom/0.0.3440.1440/-1792.23.1792.1097@0.0.3440.1440" timestamp="1599191115764" />
     <state width="1439" height="289" key="GridCell.Tab.0.bottom/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state width="1689" height="289" key="GridCell.Tab.0.bottom/0.23.3440.1417@0.23.3440.1417" timestamp="1598428872766" />
-    <state width="1689" height="289" key="GridCell.Tab.0.center" timestamp="1600222818174">
+    <state width="1689" height="289" key="GridCell.Tab.0.center" timestamp="1600228475461">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="289" key="GridCell.Tab.0.center/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600222818174" />
+    <state width="1689" height="289" key="GridCell.Tab.0.center/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600228475461" />
     <state width="3419" height="289" key="GridCell.Tab.0.center/0.0.3440.1440/-1792.23.1792.1097@0.0.3440.1440" timestamp="1599191115763" />
     <state width="1439" height="289" key="GridCell.Tab.0.center/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state width="1689" height="289" key="GridCell.Tab.0.center/0.23.3440.1417@0.23.3440.1417" timestamp="1598428872765" />
-    <state width="1689" height="289" key="GridCell.Tab.0.left" timestamp="1600222818173">
+    <state width="1689" height="289" key="GridCell.Tab.0.left" timestamp="1600228475460">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="289" key="GridCell.Tab.0.left/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600222818173" />
+    <state width="1689" height="289" key="GridCell.Tab.0.left/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600228475460" />
     <state width="3419" height="289" key="GridCell.Tab.0.left/0.0.3440.1440/-1792.23.1792.1097@0.0.3440.1440" timestamp="1599191115762" />
     <state width="1439" height="289" key="GridCell.Tab.0.left/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state width="1689" height="289" key="GridCell.Tab.0.left/0.23.3440.1417@0.23.3440.1417" timestamp="1598428872764" />
-    <state width="1689" height="289" key="GridCell.Tab.0.right" timestamp="1600222818174">
+    <state width="1689" height="289" key="GridCell.Tab.0.right" timestamp="1600228475462">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1689" height="289" key="GridCell.Tab.0.right/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600222818174" />
+    <state width="1689" height="289" key="GridCell.Tab.0.right/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600228475462" />
     <state width="3419" height="289" key="GridCell.Tab.0.right/0.0.3440.1440/-1792.23.1792.1097@0.0.3440.1440" timestamp="1599191115763" />
     <state width="1439" height="289" key="GridCell.Tab.0.right/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1597805507538" />
     <state width="1689" height="289" key="GridCell.Tab.0.right/0.23.3440.1417@0.23.3440.1417" timestamp="1598428872765" />
-    <state x="2029" y="312" key="SettingsEditor" timestamp="1596930229140">
+    <state x="2029" y="312" key="SettingsEditor" timestamp="1600225071290">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="2029" y="312" key="SettingsEditor/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1596930229140" />
+    <state x="2029" y="312" key="SettingsEditor/0.0.3440.1440/-1792.0.1792.1120@0.0.3440.1440" timestamp="1600225071290" />
     <state x="2029" y="330" key="SettingsEditor/0.23.3440.1417/-1792.23.1792.1097@0.23.3440.1417" timestamp="1596385670529" />
     <state x="2248" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1596941795428">
       <screen x="0" y="0" width="3440" height="1440" />
